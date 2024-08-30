@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Відгуки - Навколо Світу</title>
+    <link rel="stylesheet" href="static/styles/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <ul class="nav-list">
+                <li><a href="index.html"><i class="fas fa-home"></i> Головна</a></li>
+                <li><a href="reviews.html"><i class="fas fa-comments"></i> Відгуки</a></li>
+                <li><a href="about.html"><i class="fas fa-info-circle"></i> Про нас</a></li>
+                <li><a href="registration.html"><i class="fas fa-user-plus"></i> Реєстрація</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="reviews">
+            <h1>Відгуки наших клієнтів</h1>
+
+            <div class="review-container">
+                <div class="review">
+                    <div class="review-content">
+                        <p>"Відпочинок був просто чудовий! Прекрасний сервіс, смачні страви і неймовірні пейзажі.
+                            Рекомендую всім!"</p>
+                        <p class="review-author">Олександр К.</p>
+                    </div>
+                    <div class="review-stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+
+                <div class="review right">
+                    <div class="review-content">
+                        <p>"Найкраща агенція, що я коли-небудь відвідувала! Всі деталі були враховані, а відпочинок
+                            пройшов без жодних проблем."</p>
+                        <p class="review-author">Марія Л.</p>
+                    </div>
+            <div class="review-stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+                </div>
+
+                <!-- Додайте інші відгуки тут -->
+
+            </div>
+
+            <section class="add-review">
+                <h2>Залиште свій відгук</h2>
+                <p>Ви повинні бути зареєстровані, щоб залишити відгук. Увійдіть у свій акаунт або зареєструйтесь.</p>
+                <form action="#" method="post">
+                    <label for="review-text">Ваш відгук:</label>
+                    <textarea id="review-text" name="review-text" rows="5" required></textarea>
+
+                    <label for="review-rating">Оцінка:</label>
+                    <select id="review-rating" name="review-rating" required>
+                        <option value="1">1 зірка</option>
+                        <option value="2">2 зірки</option>
+                        <option value="3">3 зірки</option>
+                        <option value="4">4 зірки</option>
+                        <option value="5">5 зірок</option>
+                    </select>
+
+                    <button type="submit">Надіслати відгук</button>
+                </form>
+            </section>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Навколо Світу. Усі права захищені.</p>
+    </footer>
+</body>
+
+</html>
